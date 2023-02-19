@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+
+
+      <main class="min-h-screen flex md:items-center bg-gray-100 font-hanken">
+        <section class="bg-white w-screen md:h-[35rem] md:w-[50rem] mx-auto flex flex-col items-center shadow-lg md:flex-row md:rounded-[2rem]">
+            <!-- result container -->
+            <article class="gradTwo rounded-t-none md:h-full md:rounded-[2rem] space-y-5 md:space-y-0 rounded-[2rem] py-5 flex flex-col items-center justify-center md:p-10 md:justify-between w-full">
+              <h6 class="text-LightLavender font-semibold tracking-wide text-2xl">Your Result</h6>
+              <!-- score container -->
+              <div class="w-32 h-32 md:w-52 md:h-52 rounded-full shadow-md grad flex flex-col items-center justify-center mb-5">
+                <h1 class="font-bold text-white text-5xl md:text-7xl mb-2">
+                  76
+                </h1>
+                <span class="text-sm md:text-md text-LightLavender font-bold">of 100</span>
+              </div>
+              <h1 class="text-white text-2xl md:text-3xl font-semibold tracking-wide ">Great</h1>
+              <p class="text-LightLavender md:text-xl text-center w-72">You scored higher than 65% of the people who have taken these tests.</p>
+            </article>
+            <!-- summary container -->
+            <article class="md:h-full flex flex-col items-center justify-center md:justify-between space-y-5 md:space-y-0 w-full p-10">
+              <h1 class="font-bold text-DarkGrayBlue text-2xl mb-2 text-left w-full">
+                Summary
+              </h1>
+              <!-- scores container -->
+              <div class="flex flex-col gap-3 w-full">
+                <!-- reaction -->
+                <div class="w-full bg-LightredBg p-5 rounded-lg flex justify-between">
+                  <div class="flex items-center">
+                    <img src="/assets/images/icon-reaction.svg" alt="reactionIcon" />
+                    <span class="text-Lightred font-semibold ml-2">Reaction</span>
+                  </div>
+                  <p class="font-semibold text-LightLavender">
+                    <span class="text-DarkGrayBlue">80</span>
+                    <span class="text-LightLavender font-semibold">/</span>
+                    100
+                  </p>
+                </div>
+              </div>
+              <!-- scores container -->
+              <div class="flex flex-col gap-3 w-full">
+                <!-- reaction -->
+                <div class="w-full bg-OrangeyyellowBg p-5 rounded-lg flex justify-between">
+                  <div class="flex items-center">
+                    <img src="/assets/images/icon-memory.svg" alt="memoryIcon" />
+                    <span class="text-Orangeyyellow font-semibold ml-2">Memory</span>
+                  </div>
+                  <p class="font-semibold text-LightLavender">
+                    <span class="text-DarkGrayBlue">92</span>
+                    <span class="text-LightLavender font-semibold">/</span>
+                    100
+                  </p>
+                </div>
+              </div>
+              <!-- scores container -->
+              <div class="flex flex-col gap-3 w-full">
+                <!-- reaction -->
+                <div class="w-full bg-GreentealBg p-5 rounded-lg flex justify-between">
+                  <div class="flex items-center">
+                    <img src="/assets/images/icon-verbal.svg" alt="verbalIcon" />
+                    <span class="text-Greenteal font-semibold ml-2">Verbal</span>
+                  </div>
+                  <p class="font-semibold text-LightLavender">
+                    <span class="text-DarkGrayBlue">61</span>
+                    <span class="text-LightLavender font-semibold">/</span>
+                    100
+                  </p>
+                </div>
+              </div>
+              <!-- scores container -->
+              <div class="flex flex-col gap-3 w-full">
+                <!-- reaction -->
+                <div class="w-full bg-CobaltblueBg p-5 rounded-lg flex justify-between">
+                  <div class="flex items-center">
+                    <img src="/assets/images/icon-visual.svg" alt="visualIcon" />
+                    <span class="text-Cobaltblue font-semibold ml-2">Visual</span>
+                  </div>
+                  <p class="font-semibold text-LightLavender">
+                    <span class="text-DarkGrayBlue">72</span>
+                    <span class="text-LightLavender font-semibold">/</span>
+                    100
+                  </p>
+                </div>
+              </div>
+              <!-- button -->
+              <button class="w-full bg-DarkGrayBlue text-white p-4 rounded-3xl font-bold text-xl tracking-wide
+              hover:bg-buttonBg transition-colors ease-in">
+                Continue
+              </button>
+            </article>
+        </section>
+      </main>
+
+
+  <div class="absolute bottom-0 left-0 right-0 text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"><strong>Frontend Mentor</strong></a>. 
+    Coded by <a href="#"><strong>Sandro</strong></a>.
+  </div>
+</body>
+</html>
